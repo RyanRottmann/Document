@@ -40,7 +40,7 @@ namespace Document
                             streamWriter.Close();
                         }
                     }
-                    Console.WriteLine("{0} was sucessfully saved. The document contains {1} characters.", documentName, content.Length);
+                    Console.WriteLine("\nThe {0} document was sucessfully saved. The document contains {1} characters.\nThe document is located in the Document\\Document\\bin\\Debug\\netcoreapp2.1 folder\n", documentName, content.Length);
                 }
                 catch (Exception e) //handle an exception if it occurs
                 {
